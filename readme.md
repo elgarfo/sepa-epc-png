@@ -21,7 +21,7 @@ http://localhost:3000/?name=Wikimedia+Foerdergesellschaft&iban=DE331002050000011
 
 # practical usage example
 
-this was specifically built to be able to pay amazons monthly invoices easier and faster. for that purpose i published [this app](https://sepa-epc-png.onrender.com) on [render](render.com) and wrote an [accompanying userscript](https://github.com/elgarfo/gm_scripts/blob/master/amazon_invoice_epc.user.js) to be used in tampermonkey (might work in greasemonkey, violentmonkey. but i did only test with TM).
+this was specifically built to be able to pay amazons monthly invoices easier and faster. for that purpose i published [this app](https://sepa-epc-png.onrender.com) on [render](https://render.com) and wrote an [accompanying userscript](https://github.com/elgarfo/gm_scripts/blob/master/amazon_invoice_epc.user.js) to be used in tampermonkey (might work in greasemonkey, violentmonkey. but i did only test with TM).
 
 the result is a scannable epc-qr code on top of amazons monthly invoice website (see image), which automatically pulls the relevant info from the page.  
 <img src="https://github.com/elgarfo/sepa-epc-png/assets/3199424/e8dcf1f4-be4d-4905-bf47-a33b3a5af738" width="350">
