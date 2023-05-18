@@ -1,0 +1,8 @@
+services:
+  sepa-epc-png:
+    image: node:lts-alpine
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app
+    command: [ 'sh', '-c', 'cd /app && npm install && node app.js' ]
